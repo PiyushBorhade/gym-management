@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+background-image:linear-gradient(gray , transparent), url(../44.jpeg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+font-family: oswald;
+}
+
+.container{
+	max-width: 800px;
+	height: auto;
+	background: #fff;
+	margin: 50px auto;
+	box-sizing: border-box;
+	padding: 40px;
+}
+
+p{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 45px;
+	margin-bottom: 20px;
+	background: linear-gradient(to right, #0575e6, #021b79);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.input,
+.msg .area{
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	border: 2px solid #e9eaea;
+	font-size: 14px;
+	border-radius: 5px;
+	outline: none;
+	transition: all 0.5s;
+}
+
+.login .input{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+
+.login .input:last-child{
+margin-right: 0;
+}
+
+.msg .area{
+	height: 170px;
+}
+
+.input:focus,
+.msg .area:focus{
+	border: 2px solid #0575e6;
+}	
+
+.submit{
+	width: 100%;
+	text-align: center;
+}	
+
+ .submit .btn{
+	background: linear-gradient(to right, #0575e6, #021b79);
+	padding: 12px 85px;
+     font-family: sans-serif;
+	font-size: 19px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 5px;
+	
+}
+
+::-webkit-input-placeholder{
+	font-family: 'Oswald';
+	color: blue;
+}
+
+header{
+height: 100vh;
+background-size: cover;
+}
+
+ul{
+float:right;
+list-style-type: none;
+}
+
+ul li{
+display: inline-block;
+margin-top: 25px;
+}
+
+ul li a{
+text-decoration: none;
+color:blue;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: white;
+color: #000;
+
+}
+
+.main{
+	max-width: 1150px;
+	margin: auto;
+}
+
+
+
+
+	

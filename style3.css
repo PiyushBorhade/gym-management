@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+  
+}
+
+header{
+height: 20vh;
+background-size: cover;
+}
+
+ul{
+float:right;
+list-style-type: none;
+}
+
+ul li{
+display: inline-block;
+margin-top: 25px;
+}
+
+ul li a{
+text-decoration: none;
+color: black;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li.active a{
+	background-color: red;
+color: #000;
+}
+
+.c {
+  color: orange;
+  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique; 
+}
+
+.d {
+   color: blue;
+  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: larger;
+  font-variant: small-caps; 
+}	
+
+.s{
+    color: green;
+  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.l{
+    color: green;
+  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+	
+    
